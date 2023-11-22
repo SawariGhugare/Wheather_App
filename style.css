@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;  
+}
+body{
+    background: #fbf4f4;
+}
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(to right, #0d748e, #a97ca4);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border:0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 40px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+
+}
+
+.search-icon{
+ 
+    border:0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+ .search button img{
+    width: 16px;
+ }
+
+ .weather-icon{
+    width: 100px;
+    margin-top: 30px;
+    
+ }
+
+ .weather h1{
+    font-size: 80px;
+    font-weight: 500;
+ }
+
+ .weather h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -10px;
+ }
+
+ .details{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+    
+ }
+  
+.col{
+    /* flex: 1; */
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+    opacity: 80%;
+}
+ 
+.humidity, .wind,  .Pressure, .sunrise, .sunset{
+    font-size: 28px;
+    margin-top: 6px;
+    /* justify-content: space-between; */
+}
+
+.weather{
+    /* display: none; */
+}
+
+.btn-close{
+    background: ebfffc;
+    border:0;
+    outline: 0;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc; /* Add border or styling as needed */
+    border-radius: 5px;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #ebfffc;
+}
